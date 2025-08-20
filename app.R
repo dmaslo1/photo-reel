@@ -130,7 +130,7 @@ server <- function(input, output, session) {
     
     # Ensure we have URLs to display before trying to render them
     req(length(urls) > 0, count > 0)
-    
+    a
     # Take the first `count` URLs from the shuffled list
     urls_to_render <- urls[1:min(count, length(urls))]
     
